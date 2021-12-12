@@ -6,7 +6,7 @@
     "scripts": {
         "testWin": "wdio && npm run report",
         "testLin": "npm run cleanLin && wdio && npm run report",
-        "report": "allure generate allure-results --clean && allure open",
+        "report": "allure generate allure-results --clean",
         "cleanLin": "rm -rf allure-results && rm -rf allure-report",
         "cleanWin": "rd allure-results /s/q && rd allure-report /s/q",
         "wdio": "npx wdio run wdio.conf.js"
