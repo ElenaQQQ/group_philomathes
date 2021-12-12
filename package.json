@@ -4,7 +4,7 @@
     "description": "Tests group_philomathes",
     "main": "index.js",
     "scripts": {
-        "testWin": "npm run cleanWin && wdio && npm run report",
+        "testWin": "wdio && npm run report",
         "testLin": "npm run cleanLin && wdio && npm run report",
         "report": "allure generate allure-results --clean",
         "cleanLin": "rm -rf allure-results && rm -rf allure-report",
