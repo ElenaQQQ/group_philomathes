@@ -7,5 +7,5 @@ module.exports = {
   ruslanCredentials: { email: "ruslan.gudenko13@ukr.net", password: "Akw@2090" },
   NastyaCredentials: { email: "anastasiyadavidovichy@gmail.com", password: "Zxc15531553!" },
   svetaCredentials: { email: "qaforeveryone@mail.ru", password: "1Qwerty!" },
-  annaCredentials: { email: "anna123@mail.ru", password: "123123!" },
+  annaCredentials: { email: "bashka0789@mail.ru", password: "Login123!" },
 };
