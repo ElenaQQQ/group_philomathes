@@ -9,6 +9,6 @@ module.exports = {
   svetaCredentials: { email: "qaforeveryone@mail.ru", password: "1Qwerty!" },
   annaCredentials: { email: "bashka0789@mail.ru", password: "Login123!" },
   helenCredentials: { email: "Keagan_Smitham0@yahoo.com", password: "6T5Bah09pm_0pPL"},
-  lenaqCredentials: { email: "lenaq@e1.ru", password: "enDur1_"}
-
+  lenaqCredentials: { email: "lenaq@e1.ru", password: "enDur1_"},
+  alexeyCredentials: { email: "aleee6856@mail.ru", password: "OooU34tEy(Or" },
 };
