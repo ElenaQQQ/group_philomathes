@@ -1,0 +1,17 @@
+module.exports = {
+    validCredentials: { email: "tester14343@gmail.com", password: "Anna1!" },
+    existingCred: { email: "test4tet@i.ua", password: "Anna12!" },
+    emptyCred: { email: "", password: "" },
+    emptyEmailCred: { email: " ", password: "Anna12!" },
+    emptyPasswordCred: { email: "tqwest4tet@i.ua", password: "" },
+    invalidEmailCred: { email: "test4tet@i", password: "Anna12!" },
+    invalidPasswordCred: { email: "tqwest4tet@i.ua", password: "123456789a" },
+    invalidPasswordLength1Cred: { email: "tqwest4tet@i.ua", password: "1" },
+    invalidPasswordLength2Cred: { email: "tqwest4tet@i.ua", password: "zQ1!z" },
+    moreThan6PasswordLengthCred: { email: "atq6west4tet@i.ua", password: "zQ1!zzy" },
+    passwordWithoutUpperCaseCred: { email: "tqwest4tet@i.ua", password: "anna12" },
+    passwordWithoutLowerCaseCred: { email: "tqwest4tet@i.ua", password: "ANNA12" },
+    passwordOnlyNumbersCred: { email: "tqwest4tet@i.ua", password: "1234567" },
+    passwordOnlyLettersCred: { email: "tqwest4tet@i.ua", password: "qwerty" },
+    passwordOnlySpecCharCred: { email: "tqwest4tet@i.ua", password: "!()&^$" },    
+}
